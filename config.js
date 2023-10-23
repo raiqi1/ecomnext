@@ -1,0 +1,39 @@
+const DB_URI = "mongodb+srv://oyen:oyen@cluster0.1fztrzc.mongodb.net/nextecomm?retryWrites=true&w=majority";
+const API =
+  process.env.NODE_ENV === "production"
+    ? "https://xxx.vercel.app/api"
+    : "http://localhost:3000/api";
+const NEXTAUTH_SECRET = "SWWUDWJNJ2393JFNSDCNMWJN38KCMC";
+const GOOGLE_CLIENT_ID = "629527565282-ng0oilr62sdj8rt4iihqpual79da3nvh.apps.googleusercontent.com";
+const GOOGLE_CLIENT_SECRET = "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";
+
+CLOUDINARY_CLOUD_NAME = "de8lijtak";
+CLOUDINARY_API_KEY = "169359231617536";
+CLOUDINRAY_API_SECRET = "lae_ywdg8fZxlvBtvpaAzPz2Xck";
+
+STRIPE_PUBLISHABLE_KEY =
+  "pk_test_51MUj9ILeuFX1VKHi9yiPwgwMqD7qHiKnss5bxjglOF6EW62bzFqyrPcgTHyDUtavbt9Ns3Yl388xGg1ZnJOrz5BQ00Qc51ExBa";
+STRIPE_SECRET_KEY = "sk_test_51MUj9ILeuFX1VKHiI38j8M1Vjax91YPYKAV3skMlxIjo2xIOwCibh5sZrypCm7ol4C8goY4opRpjGLHhW5BP03er00iU1onFam";
+STRIPE_TAX_RATE = "txr_1O3IV7LeuFX1VKHiHDzoXzNM";
+STRIPE_SHIPPING_RATE = "shr_1O3Ic3LeuFX1VKHimkdiwJOR";
+
+STRIPE_WEBHOOK_SECRET = "whsec_ac3196d196c91d11cc41319024a0af9641929171d4b40099bf22368730e0472c";
+
+DOMAIN = "http://localhost:3000";
+
+module.exports = {
+  DB_URI,
+  API,
+  NEXTAUTH_SECRET,
+  GOOGLE_CLIENT_ID,
+  GOOGLE_CLIENT_SECRET,
+  CLOUDINARY_CLOUD_NAME,
+  CLOUDINARY_API_KEY,
+  CLOUDINRAY_API_SECRET,
+  STRIPE_PUBLISHABLE_KEY,
+  STRIPE_SECRET_KEY,
+  STRIPE_TAX_RATE,
+  DOMAIN,
+  STRIPE_SHIPPING_RATE,
+  STRIPE_WEBHOOK_SECRET,
+};
